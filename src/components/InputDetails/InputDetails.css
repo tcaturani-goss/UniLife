@@ -1,0 +1,47 @@
+.city-details-dropdown-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 1rem 1rem;
+    bottom: -110px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+  .dropdown-select {
+    width: 336px;
+    height: 48px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 12px;
+    color: #CED3D8;
+  }
+  
+  .dropdown-button {
+    padding: 0px 20px;
+    background-color: #3A5295;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-left: 50px;
+  }
+  
+  .dropdown {
+    display: flex;
+  }
+
+  select option[disabled][selected] {
+    color: #CED3D8;
+  }
+ 

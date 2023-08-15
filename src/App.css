@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-family: 'Epilogue', sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-container {
+  background-color: #FAFAFA;
+  min-height: 100vh;
+}
+
+p, h1, h2, h3, h4, h5, h6, label {
+  font-family: 'Epilogue', sans-serif;
+}

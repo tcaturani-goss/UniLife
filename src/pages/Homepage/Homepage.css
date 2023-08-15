@@ -1,0 +1,116 @@
+.banner-container {
+    position: relative;
+}
+
+.homepage-see-all-cities-link {
+   font-size: 1.125rem;
+   font-weight: 600;
+   padding: 1rem 0rem;
+   text-align: center;
+   border-radius: 12px;
+   color: #ffffff;
+   background-color: #3A5295;
+   margin: 3rem 6rem;
+   text-align: center;
+}
+
+.homepage-search-compare-link {
+   font-size: 1.125rem;
+   font-weight: 600;
+   padding: 1rem 0rem;
+   text-align: center;
+   border-radius: 12px;
+   color: #ffffff;
+   background-color: #3A5295;
+   margin: 3rem 5rem;
+   text-align: center;
+}
+
+.homepage-search-compare-text-container {
+   display: none;
+}
+
+.man-on-phone-img {
+   display: none;
+}
+
+.banner-text {
+   font-size: 10rem;
+}
+
+.student-text {
+   font-size: 1.5rem;
+   font-weight: 500;
+   margin: 4rem 1rem 1rem 1rem;
+   text-align: center;
+}
+
+@media screen and (min-width: 46.5rem) and (max-width: 90rem) {
+   .homepage-see-all-cities-link {
+      padding: 1rem 0rem;
+      margin: 3rem 17rem;
+   }
+   
+   .homepage-search-compare-link {
+      padding: 1rem 0rem;
+      margin: 3rem 16rem;
+      
+   }
+}
+
+@media screen and (min-width: 90rem) {
+   .homepage-see-all-cities-link {
+      margin: 3rem 39rem;
+   }
+
+   .homepage-search-compare-link {
+      padding: 1rem 0rem;
+      margin: 3rem 5rem;
+   }
+
+   .homepage-search-compare-desktop-main-container {
+      display: flex;
+      justify-content: space-between;
+      margin: 3rem 7em 0rem 7rem;
+   }
+   
+   .homepage-search-compare-left-column {
+      display: flex;
+      flex-direction: column;
+      margin: 0rem 9rem;
+      gap: 2rem;
+   }
+
+   .search-compare-icon {
+      width: 64px;
+      height: 64px;
+   }
+
+   .man-on-phone-img {
+      display: block;
+   }
+   
+   .homepage-search-compare-text-container {
+      display: flex;
+      gap: 1rem;
+   }
+
+   .homepage-search-compare-text {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .title-text {
+      font-size: 1rem;
+      font-weight: 500;
+   } 
+   
+   .homepage-search-compare-details-text {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 32px;
+   }
+}
+
+
+  

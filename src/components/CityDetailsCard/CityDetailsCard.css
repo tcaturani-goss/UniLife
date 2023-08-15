@@ -1,0 +1,27 @@
+.property-cards-container {
+    margin: 10rem 0rem 2rem 0rem;
+    border-radius: 24px;
+}
+
+.property-price-bed-bath-container {
+    background-color: #3A5295;
+}
+
+.details-city-img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.property-img {
+    width: 300px;
+    height: 200px;
+    border-radius: 24px 24px 0px 0px;
+}
+
+@media screen and (min-width: 46.5rem) and (max-width: 90rem) {
+    .property-cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
